@@ -1,0 +1,11 @@
+D:\AUCA\Database Principles\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe.config
+D:\AUCA\Database Principles\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe
+D:\AUCA\Database Principles\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.pdb
+D:\AUCA\Database Principles\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.Form1.resources
+D:\AUCA\Database Principles\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.new_client.resources
+D:\AUCA\Database Principles\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+D:\AUCA\Database Principles\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.csproj.GenerateResource.Cache
+D:\AUCA\Database Principles\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.exe
+D:\AUCA\Database Principles\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.pdb
+D:\AUCA\Database Principles\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\AUCA\Database Principles\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Release\WindowsFormsApplication1.Table_info.resources

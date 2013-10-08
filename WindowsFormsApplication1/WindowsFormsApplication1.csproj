@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ADF917A6-8B4D-48B8-ADE1-4E754F3BE102}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewClient.Designer.cs">
+      <DependentUpon>AddNewClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Alarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alarm.Designer.cs">
+      <DependentUpon>Alarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newAlarm.cs" />
+    <Compile Include="BoomDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BoomDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clients.Designer.cs">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoesClientHasDiscount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoesClientHasDiscount.Designer.cs">
+      <DependentUpon>DoesClientHasDiscount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notification with alarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notification with alarm.Designer.cs">
+      <DependentUpon>Notification with alarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="new_client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new_client.Designer.cs">
+      <DependentUpon>new_client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options.cs" />
+    <Compile Include="Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Password.Designer.cs">
+      <DependentUpon>Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Table info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table info.Designer.cs">
+      <DependentUpon>Table info.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddNewClient.resx">
+      <DependentUpon>AddNewClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alarm.resx">
+      <DependentUpon>Alarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clients.resx">
+      <DependentUpon>Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoesClientHasDiscount.resx">
+      <DependentUpon>DoesClientHasDiscount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.af-ZA.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new_client.resx">
+      <DependentUpon>new_client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notification with alarm.resx">
+      <DependentUpon>Notification with alarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Password.resx">
+      <DependentUpon>Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Table info.resx">
+      <DependentUpon>Table info.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="BoomDataSet.xsc">
+      <DependentUpon>BoomDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BoomDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BoomDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BoomDataSet.xss">
+      <DependentUpon>BoomDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
